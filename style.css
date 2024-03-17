@@ -1,0 +1,56 @@
+#h1{
+font-size: xx-large;
+background-color: rgb(233, 186, 255);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#btn{
+font-size: x-large;
+font-family: cursive;
+background-color: rgb(183, 110, 250);
+}
+
+canvas{
+    border-radius: 2px;
+    border-color: aliceblue;
+    border-style:dashed;
+    margin-top: 50px;
+    animation: animation 1s infinite;
+}
+
+@keyframes animation{
+    0%{
+      box-shadow: 5px 5px 38px #ff87e9;
+    }
+    
+    20%{
+      box-shadow: 5px 5px 38px #d380fa;
+    }
+
+    40%{
+     box-shadow: 5px 5px 38px #9782ff;
+     
+     }
+
+     60%{
+     box-shadow: 5px 5px 38px #75acff;
+    }
+
+    80%{
+    box-shadow: 5px 5px 38px #4868f5;
+    }
+
+    100%{
+    box-shadow: 5px 5px 38px #1356f0;
+    }
+}
+
+body{
+    background-size: cover;
+}
+
+#dd{
+  background-color: #9782ff;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
